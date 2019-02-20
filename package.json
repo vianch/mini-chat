@@ -5,6 +5,9 @@
   "repository": "https://github.com/vianch/mini-chat.git",
   "author": "vianch <vachavarro@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node server/index.js"
+  },
   "dependencies": {
     "ejs": "^2.6.1",
     "express": "^4.16.4",
