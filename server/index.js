@@ -21,7 +21,7 @@ io.sockets.on("connection", socket => {
         );
     });
 
-    socket.on("chat_message", function(message) {
+    socket.on("chat_message", message => {
         io.emit(
           "chat_message",
           `<strong> ${socket.username} </strong>: ${message}`
